@@ -80,15 +80,15 @@ By the end of today, you should:
 - Claude API: [Anthropic Bedrock documentation](https://docs.anthropic.com/en/api/claude-on-amazon-bedrock)
 
 ### Learning Materials
-- AWS Bedrock Getting Started
-- Claude Prompt Design Guide
-- AWS SDK Tutorials
+- [AWS Bedrock Getting Started](https://github.com/aicampg/aisg-5-day-aiimmersion/blob/main/day-2-amz-bedrock-claude/README.md)
+- [Claude Prompt Design Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
+- [AWS SDK Tutorials](https://docs.aws.amazon.com/frauddetector/latest/ug/getting-started-python.html)
 
 ### Additional Reading
-- Cloud AI Best Practices
-- Security Guidelines
-- Cost Management
-- Performance Optimization
+- [Cloud AI Best Practices](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompt-best-practices)
+- [Security Guidelines](https://medium.com/@API4AI/api-security-best-practices-for-developers-cd7c0a2b6436)
+- [Cost Management](https://cloud.google.com/transform/three-proven-strategies-for-optimizing-ai-costs)
+- [Performance Optimization](https://www.techtarget.com/searchenterpriseai/tip/AI-model-optimization-How-to-do-it-and-why-it-matters)
 
 ### Troubleshooting
 - Authentication Issues
