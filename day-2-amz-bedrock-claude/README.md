@@ -69,9 +69,20 @@ By the end of today, you should:
 2. Github code download
    - Make sure to 
    >git clone https://github.com/aicampg/aisg-5-day-aiimmersion.git
+
+   - Alternatively go to https://idx.google.com/import?url=https:%2F%2Fgithub.com%2Faicampg%2Faisg-5-day-aiimmersion.git
+   - This will automatically import the repository
    - Open folder day-2 and select the workshop workbook
    - Run the workbook step by step, enter your credentials when asked for.
 
+3. Create a virtual environment
+   - Make sure your directory is your working directory
+   - Create a new virtual environment
+   > python -m venv your_environment
+   - Activate the virtual environment
+   > source your_environment/bin/activate
+   - Now install requirements
+   > pip install -r day-2-amz-bedrock-claude\requirements.txt
 
 
 ## Further Resources
