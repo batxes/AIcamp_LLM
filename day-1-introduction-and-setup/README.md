@@ -22,12 +22,11 @@ By the end of today, you should:
 - Claude: [claude.ai](https://console.anthropic.com/)
 
 ### Cloud accounts
-- Google Cloud:
 - AWS Cloud account: [https://aws.amazon.com/](https://aws.amazon.com/)
 ### Required Tools
 - Web browser
 - Google account
-- Python 3.8+ (if using local setup)
+- Python 3.11+ (if using local setup)
 
 ## Tasks
 1. Environment Setup
@@ -47,19 +46,16 @@ By the end of today, you should:
 
 ## Instructions
 ### Setting Up Your Environment
-1. Google Colab Setup
-   - Visit colab.research.google.com
-   - Sign in with Google account
-   - Create new notebook
-   - Test Python environment
-
-2. IDX Setup (Alternative)
-   - Visit idx.dev
+1. IDX Setup
+   - Visit [https://idx.google.com/](https://idx.google.com/)
    - Create account
+   - Click to see "all templates"
+   - Use an AI/ML template - choose gemini or langchain
+   - When offered a language, replace Java/javascript with python
    - Initialize workspace
    - Verify Python installation
 
-3. Basic LLM Testing
+2. Basic LLM Testing
    - Access ChatGPT
    - Try simple prompts
    - Compare responses
@@ -73,24 +69,27 @@ By the end of today, you should:
 
 ## Further Resources
 ### Documentation
-- Google Colab Guide: colab.research.google.com/notebooks/basic_features_overview.ipynb
-- IDX Documentation: idx.dev/docs
-- Python Setup Guide: python.org/about/gettingstarted
+- Google Colab Guide:[https://colab.research.google.com/drive/16pBJQePbqkz3QFV54L4NIkOn1kwpuRrj](https://colab.research.google.com/drive/16pBJQePbqkz3QFV54L4NIkOn1kwpuRrj)
+- Google Colab Video introduction : [Video Link](https://www.youtube.com/watch?v=RLYoEyIHL6A)
+- IDX Documentation: [IDX Guide](https://developers.google.com/idx/guides)
+- Setting up IDX : [Video](https://developers.google.com/idx/guides)
+- Python Setup Guide: [Getting started with python](https://www.w3schools.com/python/python_getstarted.asp)
 
 ### Learning Materials
-- "Introduction to Machine Learning" (First Module): coursera.org/learn/machine-learning
-- Full Stack Deep Learning: fullstackdeeplearning.com/llm-bootcamp/spring-2023/llm-foundations
-- LLM Fundamentals: developers.google.com/machine-learning/resources/intro-llms
+- "Introduction to Machine Learning" (First Module): [https://www.coursera.org/learn/machine-learning](https://www.coursera.org/learn/machine-learning)
+- Full Stack Deep Learning: [fullstackdeeplearning.com/llm-bootcamp/spring-2023/llm-foundations](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/llm-foundations/)
+- LLM Fundamentals: [developers.google.com/machine-learning/resources/intro-llms](https://developers.google.com/machine-learning/resources/intro-llms)
+- Cloudskillsboost: [https://www.cloudskillsboost.google/course_templates/539/quizzes/518196](https://www.cloudskillsboost.google/course_templates/539/quizzes/518196)
+- Note: you can review cloudskillsboost content, without credits!
+
+### Preparing for next day
+- Setting up AWS: [Video](https://www.youtube.com/watch?v=lIdh92JmWtg)
+- Setting up Amazon Bedrock and LLM: [Video](https://www.youtube.com/watch?v=524J-y04Kx0&t=339s)
+
 
 ### Additional Reading
-- Understanding LLMs: [Resource Link]
-- Cloud Development Benefits: [Resource Link]
-- Python for ML: [Resource Link]
+- Understanding LLMs: [\[Resource Link\]](https://medium.com/data-science-at-microsoft/how-large-language-models-work-91c362f5b78f)
+- Cloud Development Benefits: [\[Resource Link\]](https://medium.com/versent-tech-blog/introduction-to-dev-containers-4c01cb1752a0)
 
-### Troubleshooting
-- Common Colab Issues
-- IDX Setup Problems
-- Environment Verification
-- Package Installation Help
 
 Remember: Focus on getting your environment working properly today - it's the foundation for everything else we'll do in this workshop!
