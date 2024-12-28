@@ -69,7 +69,7 @@ By the end of today, you should:
 2. Github code download
    - Make sure to 
    >git clone https://github.com/aicampg/aisg-5-day-aiimmersion.git
-   - Alternatively go to https://idx.google.com/import?url=https://github.com/aicampg/aisg-5-day-aiimmersion.git
+   - Alternatively go to https://idx.google.com/import?url=https://github.com/aicampg/aisg-7-day-aiimmersion
    - This will automatically import the repository
    - Open folder day-2 and select the workshop workbook
    - Run the workbook step by step, enter your credentials when asked for.
