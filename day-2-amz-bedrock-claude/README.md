@@ -16,7 +16,7 @@ By the end of today, you should:
 - AWS Account
 - AWS Access Keys
 - Claude API access
-- Python environment
+- Python environment(IDX)
 
 ### Core Services
 - Amazon Bedrock Console
@@ -52,37 +52,32 @@ By the end of today, you should:
 ### AWS Configuration
 1. Account Setup
    - Create AWS account if needed
-   - Enable Bedrock service
-   - Request model access
+   - Create AWS user
+   - Add Read Bdrock permissions to user, and invoke LLM and stream
+   - Create Access credentials(external service)
    - Note credentials safely
 
-2. Environment Setup
-   ```python
-   import boto3
-   
-   bedrock = boto3.client(
-       service_name='bedrock-runtime',
-       region_name='us-east-1'
-   )
-   ```
+2. Model Management
+   - Request access for Anthropic Sonnet
+   - Fill out the request form
 
-3. Basic Testing
-   ```python
-   response = bedrock.invoke_model(
-       modelId='anthropic.claude-v2',
-       body=json.dumps({
-           "prompt": "Human: Hello\n\nAssistant:",
-           "max_tokens": 500,
-           "temperature": 0.7
-       })
-   )
-   ```
+
+### Environment configuration
+1. Environment Setup
+   - Set up an IDX environment with jupyter notebook configured
+
+2. Github code download
+   - Make sure to 
+   >git clone https://github.com/aicampg/aisg-5-day-aiimmersion.git
+   - Open folder day-2 and select the workshop workbook
+   - Run the workbook step by step, enter your credentials when asked for.
+
+
 
 ## Further Resources
 ### Documentation
 - AWS Bedrock: [https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
-- Claude API: anthropic.com/api
-- boto3: boto3.amazonaws.com/v1/documentation/api/latest/index.html
+- Claude API: [Anthropic Bedrock documentation](https://docs.anthropic.com/en/api/claude-on-amazon-bedrock)
 
 ### Learning Materials
 - AWS Bedrock Getting Started
@@ -102,9 +97,9 @@ By the end of today, you should:
 - Common Setup Problems
 
 ### Preparation for Day 3
-- Review multi-modal concepts
-- Check Google Cloud access
-- Understand vision APIs
+- Review multi-modal concepts - [Google Documentation](https://cloud.google.com/use-cases/multimodal-ai)
+- Check Google Cloud access - [GCP](https://cloud.google.com/)
+- Understand vision APIs - [Documentation](https://ai.google.dev/gemini-api/docs/vision?lang=python)
 
 ### Tips
 - Keep credentials secure
