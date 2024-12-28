@@ -79,9 +79,12 @@ By the end of today, you should:
    - Create a new virtual environment
    > python -m venv your_environment
    - Activate the virtual environment
-   > source your_environment/bin/activate
+   > source lab_env/bin/activate
    - Now install requirements
-   > pip install -r day-2-amz-bedrock-claude\requirements.txt
+   > pip install -r day-2-amz-bedrock-claude/requirements.txt
+
+4. Run the jupyter notebook
+   - If you are in IDX or in your personal workspace ignore the first cell for the pip install commands
 
 
 ## Further Resources
